@@ -53,8 +53,6 @@
 }
 
 
-
-
 .container_fluid-title,
 .container_fluid-paragraf {
     color: var(--branco);
@@ -70,6 +68,7 @@
     }
     
     .container_spam {
+        font-size: 0.9em;
         margin-top: -2em;
         font-family: var(--fonte-principal);
         color: var(--branco);
