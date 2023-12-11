@@ -1,2 +1,2 @@
 # Comparador_site
-Projeto criado em Html, Css e Javascript básico.Comparação de produtos de acordo com sua relação peso x valor.Até 4 produtos podem ser computados.
+Meu primeiro projeto de Front-End,atendendo a necessidade de minha esposa e amigos ao comparar preços no supermercado. Utilizei HTML, CSS  e Javascript básico.Utilizei a inteligencia artifical phind para me auxiliar.Foco principal em praticar responsividade e UX.Utilizei a inteligência artifical phind para me auxiliar.
