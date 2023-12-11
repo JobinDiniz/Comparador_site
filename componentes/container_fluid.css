@@ -1,0 +1,250 @@
+.container_fluid {
+    background-color: var(--azul);
+    height: 25em;
+    align-items: center;
+    text-align: center;
+}
+
+.container_spam {
+    padding-top: 1em;
+    font-family: var(--fonte-principal);
+    color: var(--branco);
+}
+
+.container_fluid-title {
+    padding-top: 1em;
+    font-size: 2rem;
+    color: #FFFFFF;
+}
+
+.container_fluid-paragraf {
+    padding-top: 0.5em;
+    font-size: 1.2rem;
+    color: #FFFFFF;
+}
+
+#result {
+    color: #FFFFFF;
+    padding: 1em;
+    font-family: var(--fonte-principal);
+}
+
+.alert {
+    color: red;
+    padding: 1em;
+    font-family: var(--fonte-principal);
+}
+
+.focus_buttons {
+    display: none;
+}
+
+.focus_buttons button {
+    display: none;
+}
+
+
+#topButton {
+    display: none; 
+}
+
+#focusButton {
+    display: none; 
+}
+
+
+
+
+.container_fluid-title,
+.container_fluid-paragraf {
+    color: var(--branco);
+    font-family: 'Poppins';
+}
+
+@media screen and (max-width: 400px){
+    .container_fluid {
+        background-color: var(--azul);
+        height: 25em;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .container_spam {
+        margin-top: -2em;
+        font-family: var(--fonte-principal);
+        color: var(--branco);
+    }
+    
+    .container_fluid-title {
+        padding-top: 1em;
+        font-size: 1rem;
+        color: #FFFFFF;
+    }
+    
+    .container_fluid-paragraf {
+        padding-top: 0.5em;
+        font-size: 1rem;
+        color: #FFFFFF;
+    }
+    
+    #result {
+        color: green;
+        padding: 1em;
+        font-family: var(--fonte-principal);
+    }
+    
+    .alert {
+        color: red;
+        padding: 1em;
+        font-family: var(--fonte-principal);
+    }
+    
+    .focus_buttons {
+        display: none;
+    }
+    
+    .focus_buttons button {
+        display: none;
+    }
+    
+    
+    #topButton {
+        display: none; 
+    }
+    
+    #focusButton {
+        display: none; 
+    }
+    
+    
+    
+    
+    .container_fluid-title,
+    .container_fluid-paragraf {
+        color: var(--branco);
+        font-family: 'Poppins';
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container_fluid {
+        background-color: var(--azul);
+        height: 25em;
+        align-items: center;
+        text-align: center;
+    }
+
+    .container_fluid-title {
+        padding-top: 1.5em;
+        font-size: 1.5em;
+    }
+
+    .container_fluid-paragraf {
+        padding-top: 0.5em;
+        font-size: 1.2rem;
+    }
+
+    .focus_buttons {
+        display: flex;
+        position: fixed;
+    }
+
+    .focus_buttons button {
+        display: block;
+        padding: 0.8em;
+        background-color: var(--azul);
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+
+    .focus_buttons button:focus {
+       
+        color: lightgray;
+    }
+
+    
+
+  
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .container_fluid {
+        background-color: var(--azul);
+        height: 25em;
+        align-items: center;
+        text-align: center;
+    }
+
+    .container_fluid-title {
+        padding-top: 1.5em;
+        font-size: 1.5em;
+    }
+
+    .container_fluid-paragraf {
+        padding-top: 0.5em;
+        font-size: 1.2rem;
+    }
+
+    .focus_buttons {
+        display: flex;
+        position: fixed;
+    }
+
+    .focus_buttons button {
+        display: block;
+        padding: 0.8em;
+        background-color: var(--azul);
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+
+    .focus_buttons button:focus {
+       
+        color: lightgray;
+    }
+
+}
+
+@media screen and (max-width: 1016px) {
+
+    .container_fluid {
+        background-color: var(--azul);
+        height: 25em;
+        align-items: center;
+        text-align: center;
+    }
+
+    .container_fluid-title {
+        padding-top: 1.5em;
+        font-size: 1.5em;
+    }
+
+    .container_fluid-paragraf {
+        padding-top: 0.5em;
+        font-size: 1.2rem;
+    }
+
+    .focus_buttons {
+        display: flex;
+        position: fixed;
+    }
+
+    .focus_buttons button {
+        display: block;
+        padding: 0.8em;
+        background-color: var(--azul);
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+
+    .focus_buttons button:focus {
+       
+        color: lightgray;
+    }
+
+}
+
+
+

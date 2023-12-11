@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparador de Preços</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="./index.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter&family=Josefin+Sans:wght@400;700&family=Montserrat:ital,wght@0,300;0,600;1,400&family=Poppins:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="focus_buttons">
+        <button id="topButton">Topo</button>
+        <button id="focusButton">Rodapé</button>
+    </div>
+
+    <section class="container_fluid" tabindex="-1">
+
+        <h1 class="container_fluid-title">Comparador relação peso X valor</h1>
+        <p class="container_fluid-paragraph" id="result"></p>
+        <p class="container_spam" id="select"></p>
+
+
+
+
+
+    </section>
+    <section class="panel">
+       
+      
+        <div class="product-container">
+
+            <div class="product" id="product1">
+                <h2 class="title_product">Produto 1</h2>
+                <p class="title_value">Valor :<input type="text" oninput="formatarMoeda(this)" class="value">
+                </p>
+                <p class="title_weight">Peso :<input type="number" class="weight">
+                </p>
+            </div>
+ 
+            <div class="product" id="product2">
+                <h2 class="title_product">Produto 2</h2>
+                <p class="title_value">Valor : <input type="text" oninput="formatarMoeda(this)" class="value"></p>
+                <p class="title_weight">Peso : <input type="number" class="weight"></p>
+
+            </div>
+        </div>
+        <div class="slide-container" id="2">
+          
+        </div>
+      
+       
+    </section>
+    <section class="button_panel" tabindex="-1">
+        <button class="button_panel-buttonDone" id="calculate">Calcular</button>
+        <button class="button_panel-buttonReset" id="reset">Resetar</button>
+
+     
+ 
+           
+
+        <select id="productCount">
+            <option  value="2" selected>2 Produtos</option>
+            <option value="3">3 Produtos</option>
+            <option value="4">4 Produtos</option>
+        </select>
+
+
+        
+
+
+        <div id="meuAlerta" class="alerta">
+            <div class="alerta-conteudo">
+                <h4 class="alert_title">Resultado:</h4>
+                <p class="alert_result" id="resultAlert"></p>
+
+                <button class="btn btn-success" >
+                    <i class="bi bi-check-lg" id="fecharAlerta"></i>
+                   </button>
+               
+            </div>
+        </div>
+
+
+    </section>
+</body>
+
+</html>

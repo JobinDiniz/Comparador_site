@@ -1,0 +1,301 @@
+.panel {
+
+    background-color: var(--branco);
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 10px;
+    box-shadow: 0 2px 1px 1px gray;
+
+}
+
+.product-container {
+    display: flex;
+    margin-top: -7em;
+    padding: 2em;
+    flex-wrap: wrap;
+
+}
+
+.product {
+
+    text-align: center;
+    border: none;
+    margin: 0 auto;
+
+}
+
+#product3,
+#product4 {
+    margin-bottom: 4.5em;
+}
+
+#product3 {
+    padding-left: 1.5em;
+}
+
+#product4 {
+    padding-right: 1.5em;
+}
+
+.slide-container {
+    display: flex;
+    height: 180px;
+    align-items: center;
+    margin-top: 2px;
+
+    border-top: none;
+    border-radius: 2px;
+    box-shadow: 0 2px 1px 1px gray;
+
+
+}
+
+
+
+
+.title_product,
+.title_value,
+.title_weight {
+    font-family: var(--fonte-principal);
+
+}
+
+.title_product {
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+
+}
+
+.title_productD {
+    padding-bottom: 0.5em;
+}
+
+.title_value,
+.title_weight {
+    font-weight: 600
+}
+
+.value,
+.weight {
+    font-size: 20px;
+    border: 1px solid rgb(221, 221, 221);
+    border: 1px solid lightblue;
+    height: 30px;
+    margin: 0.5em;
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+
+
+}
+
+.value:focus,
+.weight:focus {
+    border: 1px solid lightblue;
+}
+
+@media screen and (max-width: 480px) {
+    .panel {
+        background-color: var(--branco);
+        width: 70%;
+        margin-left: 15%;
+
+        box-shadow: 0 2px 1px 1px gray;
+        text-align: center;
+        border-bottom: none;
+    }
+
+    .product-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 1em;
+
+    }
+
+    .product {
+
+        width: 100%;
+
+    }
+
+    .slide-container {
+
+        flex-direction: column;
+        height: auto;
+        border-top: none;
+        margin-top: 0;
+        padding: 1em;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    
+
+    }
+
+
+
+    #product3,
+    #product4 {
+        margin: 0 auto;
+        padding: 0;
+
+    }
+
+    #product3 {
+        margin-top: -2em;
+    }
+
+    .value,
+    .weight {
+        font-size: 20px;
+        border: 1px solid rgb(221, 221, 221);
+        border: 1px solid lightblue;
+        height: 30px;
+        margin: 0.5em;
+        border-radius: 5px;
+        text-align: center;
+        outline: none;
+        width: 50%;
+
+
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .panel {
+        background-color: var(--branco);
+        width: 70%;
+        margin-left: 15%;
+
+        box-shadow: 0 2px 1px 1px gray;
+        text-align: center;
+        border-bottom: none;
+    }
+
+    .product-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 1em;
+
+    }
+
+    .product {
+
+        width: 100%;
+
+    }
+
+    .slide-container {
+
+        flex-direction: column;
+        height: auto;
+        border-top: none;
+        margin-top: 0;
+        padding: 1em;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+
+
+    #product3,
+    #product4 {
+        margin: 0 auto;
+        padding: 0;
+
+
+    }
+
+
+
+    #product3 {
+        margin-top: -2em;
+    }
+
+    .value,
+    .weight {
+        font-size: 20px;
+        border: 1px solid rgb(221, 221, 221);
+        border: 1px solid lightblue;
+        height: 30px;
+        margin: 0.5em;
+        border-radius: 5px;
+        text-align: center;
+        outline: none;
+        width: 50%;
+
+
+    }
+
+}
+
+
+
+@media screen and (max-width: 1016px) {
+    .panel {
+        background-color: var(--branco);
+        width: 70%;
+        margin-left: 15%;
+        box-shadow: 0 2px 1px 1px gray;
+        text-align: center;
+        border-bottom: none;
+    }
+
+    .product-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 1em;
+
+    }
+
+    .product {
+
+        width: 100%;
+
+    }
+
+    .slide-container {
+
+        flex-direction: column;
+        height: auto;
+        border-top: none;
+        margin-top: 0;
+        padding: 1em;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    #product3,
+    #product4 {
+        margin: 0 auto;
+        padding: 0;
+      
+    }
+
+    #product3 {
+        margin-top: -2em;
+    }
+
+    .value,
+    .weight {
+        font-size: 20px;
+        border: 1px solid rgb(221, 221, 221);
+        border: 1px solid lightblue;
+        height: 30px;
+        margin: 0.5em;
+        border-radius: 5px;
+        text-align: center;
+        outline: none;
+        width: 50%;
+
+
+    }
+
+}

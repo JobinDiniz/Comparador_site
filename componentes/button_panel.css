@@ -1,0 +1,177 @@
+.button_panel {
+    display: flex;
+    text-align: center;
+    padding-top: 1em;
+    margin: 1em;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+#productCount {
+    cursor: pointer;
+}
+
+
+
+.button_panel-buttonDone,
+.button_panel-buttonReset {
+    font-weight: 600;
+    border-radius: 8px;
+    font-size: 1.4rem;
+
+    height: 50px;
+    width: 150px;
+
+    padding: 10px 20px;
+    border-radius: 8px;
+
+    text-align: center;
+    margin: 5px;
+    cursor: pointer;
+
+}
+
+.button_panel-buttonReset {
+    color: darkred;
+    border: 2px solid darkred;
+    background-color: #ffffff;
+
+}
+
+.button_panel-buttonReset:hover {
+    color: red;
+    border: 2px solid red;
+
+}
+
+.button_panel-buttonDone {
+    color: darkgreen;
+    border: 2px solid darkgreen;
+    background-color: #ffffff;
+}
+
+.button_panel-buttonDone:hover {
+    color: green;
+    border: 2px solid green;
+}
+
+
+.alerta {
+    font-family: var(--fonte-principal);
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.alerta-conteudo {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 2px solid #888;
+    width: 80%;
+    border-radius: 5px;
+
+}
+
+#fecharAlerta {
+    color: black;
+    background-color: #ffffff;
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    height: 40px;
+    width: 40px;
+}
+
+#productCount {
+    font-weight: 600;
+    border-radius: 8px;
+
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    height: 50px;
+    width: 150px;
+    border-radius: 8px;
+    text-align: center;
+    margin-left: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+#productCount:hover {
+    color: #858585;
+    background-color: #fefefe;
+
+}
+
+option {
+    padding-top: 5px;
+}
+
+
+.alert_title {
+
+    padding-top: 0.5em;
+    font-size: 2rem;
+
+
+}
+
+.alert_result {
+    padding: 1em;
+    font-size: 1.2rem;
+
+}
+
+.bi-check-lg {
+    font-size: 24px;
+    justify-content: center;
+
+
+
+}
+
+@media screen and (max-width: 400px) {
+
+    .button_panel-buttonDone,
+    .button_panel-buttonReset {
+        font-weight: 600;
+        border-radius: 8px;
+        font-size: 1rem;
+
+        height: 50px;
+        width: 100px;
+
+        padding: 10px 20px;
+        border-radius: 8px;
+
+        text-align: center;
+        margin: 5px;
+        cursor: pointer;
+
+    }
+}
+
+@media (max-width: 700px) and (orientation: landscape) {
+
+    .button_panel {
+        display: flex;
+        text-align: center;
+        padding-top: 1em;
+        margin: 1em;
+        align-items: center;
+        justify-content: center;
+      
+        
+
+    }
+
+    
+
+
+}
